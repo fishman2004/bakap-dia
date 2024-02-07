@@ -1,9 +1,11 @@
+/* Reset CSS */
 html, body, div, p, figure, img, h1, h2, ul, li, a {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
+/* Body Styles */
 body {
   display: flex;
   flex-direction: column;
@@ -13,6 +15,7 @@ body {
   color: #333;
 }
 
+/* Main Styles */
 main {
   flex-grow: 1;
   background-color: #fff;
@@ -20,19 +23,7 @@ main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.gif-container {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 400px;
-}
-
-.gif-container img {
-  max-width: 100%; 
-  max-height: 100%; 
-}
-
+/* Header Styles */
 header {
   background-color: #f8f9fa;
   padding: 10px 20px;
@@ -63,6 +54,7 @@ h1 {
   font-weight: bold;
 }
 
+/* Navbar Styles */
 .navbar ul {
   list-style: none;
 }
@@ -85,6 +77,7 @@ h1 {
   text-decoration: underline;
 }
 
+/* Content Styles */
 .content {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 15px;
@@ -92,6 +85,7 @@ h1 {
   align-items: flex-start;
 }
 
+/* Sidebar Styles */
 .sidebar {
   background-color: #95b1ce; 
   padding: 20px;
@@ -122,41 +116,13 @@ h1 {
   text-decoration: underline;
 }
 
-article {
-  flex-grow: 1;
-  padding: 20px;
-}
-
-article h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-footer {
-  background-color: #007bff;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-.footer-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-}
-
+/* Article Styles */
 .article {
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 20px;
-}
-
-.article-info {
-  display: flex;
-  align-items: center;
 }
 
 .article-header {
@@ -187,60 +153,38 @@ footer {
 
 .article-body {
   font-size: large;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   line-height: 1.6;
 }
 
-.article-details table {
-  width: 100%;
-  border-collapse: collapse;
+/* Footer Styles */
+footer {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
-.article-details th,
-.article-details td {
-  border: 1px solid #ccc;
-  padding: 8px;
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
-.article-details th {
-  background-color: #f2f2f2;
-  text-align: left;
-  font-weight: bold;
-}
-
-.article-details td {
-  text-align: left;
-}
-
-.article-details tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-.article-details {
-  margin-top: 20px;
-  flex-grow: 1;
-}
-
-.article-details p {
-  margin: 5px 0;
-}
-
-.article-header {
-  margin-bottom: 20px;
-}
-
-.article-footer {
-  margin-top: 20px;
-  font-style: italic;
-}
+/* Figure Styles */
 .figuras {
   text-align: center;
   font-style: italic;
 }
+
+/* List Styles */
 .lista {
   text-align: left;
   font-style: italic;
 }
+
+/* Ibiapino Projects Styles */
 .ibiapino-projects {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
@@ -250,3 +194,8 @@ footer {
   opacity: 1;
 }
 
+/* Links Styles */
+.links {
+  font-size: 30px;
+  color: /* add your color value */;
+}
